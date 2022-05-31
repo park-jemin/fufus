@@ -58,8 +58,10 @@ Email: <input name="email" required="" size="60" type="email"/>
      email: email,
      name: fullname
    };
+  
+  var id = Math.floor(Math.random() * 100000);
 // Identify call
-    analytics.identify('12345', {
+    analytics.identify(id.toString(), {
       email: email,
       name: fullname,
       shoeType: shoeType
