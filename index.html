@@ -61,7 +61,7 @@ Email: <input name="email" required="" size="60" type="email"/>
   
   var id = Math.floor(Math.random() * 100000);
 // Identify call
-    analytics.identify(id.toString(), {
+    analytics.identify(String(id), {
       email: email,
       name: fullname,
       shoeType: shoeType
