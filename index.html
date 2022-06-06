@@ -179,6 +179,85 @@ Size: <input name="size" required="" size="60" type="number"/>
        }
      ]
    });
+  
+  
+     analytics.track('Dummy Event 1', {
+     checkout_id: 'fksdjfsdjfisjf9sdfjsd9f',
+     order_id: '50314b8e9bcf000000000000',
+     affiliation: 'Google Store',
+     total: 555.00,
+     subtotal: 500.00,
+     revenue: 525.00,
+     shipping: 35.00,
+     tax: 20.00,
+     discount: 30.00,
+     coupon: 'First_Purchase',
+     currency: 'USD',
+     products: [
+       {
+         product_id: '507f1f77bcf86cd799439011',
+         sku: 'G-32',
+         name: 'Air Jordan 4 - White / Military Blue - Fire Red',
+         price: 500.00,
+         quantity: 1,
+         category: 'Jordan',
+         url: 'https://www.example.com/product/path',
+         image_url: 'https:///www.example.com/product/path.jpg'
+       }
+     ]
+   });
+  
+       analytics.track('Bad/Event 1', {
+     checkout_id: 'fksdjfsdjfisjf9sdfjsd9f',
+     order_id: '50314b8e9bcf000000000000',
+     affiliation: 'Google Store',
+     total: 555.00,
+     subtotal: 500.00,
+     revenue: 525.00,
+     shipping: 35.00,
+     tax: 20.00,
+     discount: 30.00,
+     coupon: 'First_Purchase',
+     currency: 'USD',
+     products: [
+       {
+         product_id: '507f1f77bcf86cd799439011',
+         sku: 'G-32',
+         name: 'Air Jordan 4 - White / Military Blue - Fire Red',
+         price: 500.00,
+         quantity: 1,
+         category: 'Jordan',
+         url: 'https://www.example.com/product/path',
+         image_url: 'https:///www.example.com/product/path.jpg'
+       }
+     ]
+   });
+  
+         analytics.track('Bad/Event/2', {
+     checkout_id: 'fksdjfsdjfisjf9sdfjsd9f',
+     order_id: '50314b8e9bcf000000000000',
+     affiliation: 'Google Store',
+     total: 555.00,
+     subtotal: 500.00,
+     revenue: 525.00,
+     shipping: 35.00,
+     tax: 20.00,
+     discount: 30.00,
+     coupon: 'First_Purchase',
+     currency: 'USD',
+     products: [
+       {
+         product_id: '507f1f77bcf86cd799439011',
+         sku: 'G-32',
+         name: 'Air Jordan 4 - White / Military Blue - Fire Red',
+         price: 500.00,
+         quantity: 1,
+         category: 'Jordan',
+         url: 'https://www.example.com/product/path',
+         image_url: 'https:///www.example.com/product/path.jpg'
+       }
+     ]
+   });
  }
  
 </script>
